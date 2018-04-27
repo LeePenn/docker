@@ -1,9 +1,9 @@
 # docker
 Deploy docker and harbor
 
-##基于自签发证书的HTTPS安装Notary&Clair
+## 基于自签发证书的HTTPS安装Notary&Clair
 
-###环境
+### 环境
 
 | NAME | INFO |
 | ---------- | -------- |
@@ -12,11 +12,11 @@ Deploy docker and harbor
 | docker-compose | 1.9.0 |
 | IP | 111.231.112.132 |
 
-###证书
+### 证书
 
 如已有证书，可跳过本段
 
-###1.CA
+### 1.CA
 
 * 创建并进入证书目录
  ```
@@ -42,7 +42,7 @@ Organizational Unit Name (eg, section) []:
 Common Name (eg, your name or your server's hostname) []:
 Email Address []:
  ```
-###2.域名证书
+### 2.域名证书
 
 * 生成Key
 ```
